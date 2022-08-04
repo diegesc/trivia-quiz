@@ -1,1 +1,60 @@
 /* Write your CSS Here. */
+* {
+    box-sizing: border-box;
+    background-color: aqua;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body>h1 {
+    display: flex;
+    color: blueviolet;
+    justify-content: center;
+}
+
+body>h3 {
+    display: flex;
+    color: rgb(146, 125, 9);
+    justify-content: center;
+}
+
+body>div {
+    display: flex;
+    background-color: blue;
+    justify-content: left;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10%;
+}
+
+body>div>p {
+    display: flex;
+    justify-content: right;
+    background-color: blue;
+    border-radius: 10%;
+}
+
+body>div.category {
+    width: 250px;
+}
+
+body>div.question {
+    width: 250px;
+}
+
+body>div.value {
+    width: 100px;
+}
+
+body>div.score {
+    width: 100px;
+}
+
+body>div.answer {
+    width: 200px;
+}
